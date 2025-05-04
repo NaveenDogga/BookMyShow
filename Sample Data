@@ -1,0 +1,17 @@
+-- Movies
+INSERT INTO Movie VALUES (1, 'Inception', 'English', 148, 'Sci-Fi');
+INSERT INTO Movie VALUES (2, 'Dangal', 'Hindi', 161, 'Drama');
+
+-- Theatres
+INSERT INTO Theatre VALUES (1, 'PVR Cinemas', 'Mumbai');
+INSERT INTO Theatre VALUES (2, 'INOX', 'Delhi');
+
+-- Screens
+INSERT INTO Screen VALUES (1, 1, 'Screen 1');
+INSERT INTO Screen VALUES (2, 1, 'Screen 2');
+INSERT INTO Screen VALUES (3, 2, 'Screen 1');
+
+-- Shows
+INSERT INTO Show VALUES (1, 1, 1, '2025-05-06', '10:00:00');
+INSERT INTO Show VALUES (2, 1, 2, '2025-05-06', '14:00:00');
+INSERT INTO Show VALUES (3, 2, 3, '2025-05-06', '13:00:00');
