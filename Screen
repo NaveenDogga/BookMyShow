@@ -1,0 +1,6 @@
+CREATE TABLE Screen (
+    screen_id INT PRIMARY KEY,
+    theatre_id INT,
+    screen_name VARCHAR(50),
+    FOREIGN KEY (theatre_id) REFERENCES Theatre(theatre_id)
+);
