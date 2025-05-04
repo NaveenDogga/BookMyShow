@@ -25,3 +25,7 @@ Normalization
 3NF: No transitive dependencies.
 BCNF: All functional dependencies have candidate keys as determinant.
 
+
+
+Part 2: Query
+List all shows on a given date at a given theatre with timings
