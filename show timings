@@ -1,0 +1,15 @@
+SELECT 
+    m.title AS Movie_Title,
+    s.screen_name AS Screen,
+    sh.show_time AS Show_Time
+FROM 
+    Show sh
+JOIN 
+    Movie m ON sh.movie_id = m.movie_id
+JOIN 
+    Screen s ON sh.screen_id = s.screen_id
+JOIN 
+    Theatre t ON s.theatre_id = t.theatre_id
+WHERE 
+    sh.show_date = '2025-05-06'
+    AND t.name = 'PVR Cinemas';
